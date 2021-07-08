@@ -53,16 +53,32 @@ header img {
     text-align: center;
     align-self: center;
 }
-header h1 {
+.header--tittle-container h1 {
     color: var(--just-white);
     font-weight: bold;
     line-height: 26px;
     font-size: 2.4rem;
 }
-header p {
+.header--tittle-container p {
     color: var(--soft-orange);
     font-size: 1.4rem;
     margin-top: 24px;
     font-weight: 500;
     line-height: 18px;
+}
+.header--tittle-container .header--button {
+    position: absolute;
+    left: calc(50% - 118px);
+    /* left: calc(50% -118px) Es un calculo que se puede usar para centrar elementos */
+    top: 270px;
+    display: block;
+    margin-top: 35px;
+    padding: 15px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    /* Sombra */
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 4px;
 }
