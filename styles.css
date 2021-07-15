@@ -95,3 +95,34 @@ header img {
     margin-left: 10px;
     background-image: url(./Assets/icons/down-arrow.svg);
 }
+main {
+    width: 100%;
+    height: auto;
+    background-color: var(--off-white);
+}
+.main-exchange-container {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.main-exchange-container .background-img {
+    width: 195px;
+    height: 195px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    background-image: url(./Assets/img/Bitcoin.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.main-exchange-container--title {
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.main-exchange-container h2 {
+    margin-bottom: 24px;
+}
